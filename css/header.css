@@ -1,15 +1,22 @@
 .header {
-  padding: 10px 15px;
-  border-bottom: 1px solid #AAAAAA;  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-bottom: 1px solid #aaa;  
 }
 
 .header__wrapper {
+  height: 50px;
+  padding: 0 15px;  
   display: flex;
+  align-items: center;  
 }
 
 .header__logo {
   width: 77px;
-  height: 30px;
+  height: 30px;  
 }
 
 .header__logo img {
@@ -21,7 +28,7 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 20px;  
 }
 
 .header__lang {
