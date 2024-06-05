@@ -18,12 +18,21 @@
   border: 2px dashed aqua;
 }
 
-/* .footer__info {} */
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 /* .footer__logo {} */
 
+.footer__logo img {
+  width: 216px;
+}
+
 .footer__copy {
   font-size: 12px;
+  font-family: "Nunito", sans-serif;
   line-height: 18px;
   margin-top: 10px;
 }
