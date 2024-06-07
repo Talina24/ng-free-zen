@@ -1,0 +1,49 @@
+.footer {
+  padding: 30px 15px;
+  color: #fff;
+  background: #484848;
+  border: 2px dashed red;
+}
+
+.footer__wrapper {
+  display: grid;
+  gap: 30px;
+  border: 2px dashed blue;
+}
+
+.footer__columns {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  border: 2px dashed aqua;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .footer__logo {} */
+
+.footer__logo img {
+  width: 216px;
+}
+
+.footer__copy {
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.footer__dev {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__dev img {
+  width: 130px;
+  height: 46px;
+  margin-top: 10px;
+}
